@@ -188,6 +188,7 @@
         </div>
 
         <script>
+          $(document).ready(function(){
             $('a[id^="add_tag_"]').click(function() {
                 var aid = $(this).attr('id');
                 // toggle add image tag form
@@ -227,6 +228,7 @@
                 }
 
             });
+          });
         </script>
     </body>
 </html>
